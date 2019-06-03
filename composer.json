@@ -1,0 +1,52 @@
+{
+    "name": "farento/rest-sdk",
+    "keywords": [
+        "rest api farento",
+        "farento real estate",
+        "real estate service"
+    ],
+    "homepage": "https://github.com/farento-real-estate/rest-sdk",
+    "description": "SDK for api.farento.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Admin Farento",
+            "email": "admin@farento.com",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Farento\\SDK\\": [
+                "src"
+            ],
+            "Farento\\Tests\\": [
+                "tests"
+            ]
+        },
+        "classmap": [
+            "src",
+            "tests"
+        ]
+    },
+    "require": {
+        "php": ">=7.2"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": [
+                "tests"
+            ]
+        }
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^2.11",
+        "phpmd/phpmd": "^2.6",
+        "symfony/process": "^4.0",
+        "pdepend/pdepend": "^2.2",
+        "phploc/phploc": "^4.0",
+        "sebastian/phpcpd": "^2.0",
+        "sebastian/version": "^2.0",
+        "phpunit/phpunit": "^7.0"
+    }
+}
