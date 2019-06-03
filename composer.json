@@ -30,11 +30,15 @@
         ]
     },
     "require": {
-        "php": ">=7.2"
+        "php": ">=7.2",
+        "ext-json": "*",
+        "guzzle/http": "^3.9",
+        "symfony/http-foundation": "~3.4|~4.0",
+        "doctrine/collections": "^1.0"
     },
     "autoload-dev": {
         "psr-4": {
-            "Tests\\": [
+            "Farento\\Tests\\": [
                 "tests"
             ]
         }
